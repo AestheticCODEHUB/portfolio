@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+  />
+
+   <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+   <link
+   href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap"
+   rel="stylesheet"
+ />
+
+  <!-- fontawesome cdn -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> 
+
+  <!-- custome css style   -->
+  <link rel="stylesheet" href="asset/style.css" />
+
+</head>
+<body>
+    
+    <div id="wrapperCollapse">
+
+        <header id="hdToggleCollapse" class="d-flex">
+            <div href="javascript:void(0)" class="toggle-btn" onclick="toggleSidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <h6 class="ml-4 font-weight-bold">WELCOME</h6>
+        </header>
+
+        <aside id="aSidebarCollapse" class="sidebar">
+            <div class="text-center mt-4">
+                <div class="circular-img">
+                    <img src="asset/img/man-img.jpg" alt="Circle image"
+                    />
+                </div>
+                <h5 class="mt-3 font-weight-bold" style="letter-spacing: 1px;">John Rey Franco</h5>
+                <p>Website Designer</p>
+            </div>
+
+            <ul id="ulSidebarMenu" class="sidebar-menu mt-4 navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">WELCOME</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="skills.html">SKILLS</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="others.html">OTHERS</a>
+                </li>
+            </ul>
+        </aside>
+
+
+        <main>
+            <div class="mx-5 my-4">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="font-weight-bold text-spacing-title"><i class="fas fa-lightbulb text-cs-black fa-sm mr-2"></i>KNOWLEDGE</h4>
+                        <hr />
+                        <div class="progress rounded-0 mt-4">
+                            <div class="progress-bar bg-cs-black" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                <span class="skill">HTML <i class="value">85%</i></span>
+                            </div>
+                        </div>
+
+                        <div class="progress rounded-0 mt-4">
+                            <div class="progress-bar bg-cs-black" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                <span class="skill">CSS <i class="value">70%</i></span>
+                            </div>
+                        </div>
+
+                        <div class="progress rounded-0 mt-4">
+                            <div class="progress-bar bg-cs-black" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                <span class="skill">JAVASCRIPT <i class="value">60%</i></span>
+                            </div>
+                        </div>
+
+                        <div class="progress rounded-0 mt-4">
+                            <div class="progress-bar bg-cs-black" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                <span class="skill">PHP <i class="value">50%</i></span>
+                            </div>
+                        </div>
+
+                        <div class="progress rounded-0 mt-4">
+                            <div class="progress-bar bg-cs-black" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+                                <span class="skill">MYSQL <i class="value">45%</i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 mt-5">
+                        <h4 class="font-weight-bold text-spacing-title"><i class="fas fa-tasks text-cs-black fa-sm mr-2"></i>PROJECT</h4>
+                        <hr />
+
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-md-4 mt-md-2 mt-3">
+                                            <div class="flip-card">
+                                                <div class="flip-card-inner">
+                                                  <div class="flip-card-front">
+                                                    <img class="d-block h-100" src="./asset/img/project-pd.jpg" style="width: 310px;" alt="First slide">
+                                                  </div>
+                                                  <div class="flip-card-back p-3">
+                                                    <div class="font-weight-bold mb-2">Programmers Developers</div> 
+                                                    <small>It's a ecomerce website project.</small> 
+                                                    <small>In this project I was one of the web designer who designs the website. I also have knowledge in backend code so sometimes I help out my team for doing backend whenever I'm available.</small> 
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 mt-md-2 mt-3">
+                                            <div class="flip-card">
+                                                <div class="flip-card-inner">
+                                                  <div class="flip-card-front">
+                                                    <img class="d-block h-100" src="./asset/img/project-express.jpg" style="width: 310px;" alt="First slide">
+                                                  </div>
+                                                  <div class="flip-card-back p-3">
+                                                    <div class="font-weight-bold mb-2">The Express Guy (Courier)</div> 
+                                                    <small>It's a courier booking website project.</small> 
+                                                    <small>In this project I'am the one who layout the design and convert it in the HTML code.</small> 
+                                                  </div>
+                                                </div>
+                                            </div>
+                                            <!-- <img class="d-block w-100" src="./asset/img/project-express.jpg" style="height: 200px;" alt="First slide"> -->
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a> -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+   
+     <!-- Javascript install CDN -->
+     <script
+     src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+     crossorigin="anonymous"
+   ></script>
+   <script
+     src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+     crossorigin="anonymous"
+   ></script>
+   <script
+     src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+     crossorigin="anonymous"
+   ></script>
+
+   <script src="./asset/customScript.js"></script>
+   
+</body>
+</html>

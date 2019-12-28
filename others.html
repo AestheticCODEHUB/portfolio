@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+
+    <!-- custome css style   -->
+    <link rel="stylesheet" href="asset/style.css" />
+
+  </head>
+  <body>
+    <div id="wrapperCollapse">
+      <header id="hdToggleCollapse" class="d-flex">
+        <div
+          href="javascript:void(0)"
+          class="toggle-btn"
+          onclick="toggleSidebar()"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h6 class="ml-4 font-weight-bold">WELCOME</h6>
+      </header>
+
+      <aside id="aSidebarCollapse" class="sidebar">
+        <div class="text-center mt-4">
+          <div class="circular-img">
+            <img src="asset/img/man-img.jpg" alt="Circle image" />
+          </div>
+          <h5 class="mt-3 font-weight-bold" style="letter-spacing: 1px;">
+            John Rey Franco
+          </h5>
+          <p>Website Designer</p>
+        </div>
+
+        <ul id="ulSidebarMenu" class="sidebar-menu mt-4 navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">WELCOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="skills.html">SKILLS</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="others.html">OTHERS</a>
+          </li>
+        </ul>
+      </aside>
+
+      <main>
+        <div class="mx-5 mt-4">
+          <h4 class="font-weight-bold text-spacing-title">
+            <i class="fas fa-medal text-cs-black fa-sm mr-2"></i>Certificate
+          </h4>
+          <hr />
+
+          <img
+            id="myImg"
+            src="./asset/img/man-img.jpg"
+            alt="STARTIDEA"
+            style="width:100%;max-width:300px"
+          />
+
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImg" />
+            <div id="caption"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- Javascript install CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./asset/customScript.js"></script>
+
+  </body>
+</html>
