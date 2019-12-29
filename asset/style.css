@@ -6,13 +6,27 @@
 
       } */
 
-    /* 100% Image Width on Smaller Screens */
-    @media only screen and (max-width: 700px){
+
+      @media screen and (min-width : 360px) and (max-width : 480px) {
+
         .modal-content {
-        width: 100%;
+            width: 100%;
+        }
+     
+
+        .flip-card-front img {
+            height: 100%;
+            width: 285px;
+        }
+
+        .flip-card {
+            background-color: transparent;
+            width: 285px;
+            height: 200px;
+            background: red;
+            perspective: 1000px;
         }
     }
-
 
     /* === custom css === */
         
@@ -66,7 +80,7 @@
     }
 
     .bg-welcome {
-         height: 90vh;
+        height: 90vh;
         background-repeat: no-repeat;
         background-image: url("../asset/img/bg-welcome.png");
         background-size: cover; 
@@ -325,6 +339,11 @@
         100% {transform: translateX(0);}
     }
     
+    .flip-card-front img {
+        height: 100%;
+        width: 310px;
+    }
+
     .flip-card {
         background-color: transparent;
         width: 310px;
@@ -395,7 +414,7 @@
         margin: auto;
         display: block;
         width: 80%;
-        max-width: 700px;
+        max-width: 600px;
     }
     
     /* Caption of Modal Image */
